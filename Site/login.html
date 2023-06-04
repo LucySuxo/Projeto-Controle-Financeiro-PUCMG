@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/login.css">
+    <script defer src="./js/login.js"></script>
+   <link rel="shortcut icon" href="img/icone.jpg" type="image/x-icon">
+</head>
+<body>
+
+    <div id="login-container">
+        <img id="logo" src="img/logo.bolsofeliz.png" alt="">
+        
+     <form action="">
+
+        
+        <label for="email" id="LabelEmail">E-mail</label>
+        <input type="text" name="email" id="email" placeholder="Digite seu e-mail"  autocomplete="on" >
+
+       
+        <label for="senha" id="LabelSenha">Senha</label>
+        <input type="password" name="password" id="senha" placeholder="Digite a sua senha" >
+        
+        <span class="mostrar-senha"> <i id="mostrarSenhaIcon" class="bi bi-eye-fill"></i> </span>
+
+        <a href="pass-recovery.html" target="_blank" id="forgot-pass">Esqueceu a senha?</a>
+
+
+        <button type="button" onclick="entrar()">Entrar</button>
+
+     </form>
+
+   
+
+     <div id="social-container">
+        <p>Ou entre pelas suas redes sociais:</p>
+
+        <a href="#"><i class="bi bi-facebook"  id="facebook"></i></a>
+
+        <a href="#" id="chrome"><i class="bi bi-browser-chrome"></i></a>
+
+     
+
+    </div>
+     <div id="register-container">
+        <p>Ainda não tem uma conta?</p>
+        <a href="cadastro.html">Registrar</a>
+     </div>
+
+    </div>
+    
+    
+
+</body>
+</html>

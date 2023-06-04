@@ -64,11 +64,11 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 | E5- |Apresentação| |
 | E5- |Material de Apoio sobre a Apresentação de um Produto| Título do Projeto, Identidade Visual (Marca, Design), Conjunto de Slides (Estrutura)|
 
-**● Em andamento:** Esta coluna recebe as tarefas que estão sendo desenvolvidas pelos integrantes do grupo.
+● Em andamento: Esta coluna recebe as tarefas que estão sendo desenvolvidas pelos integrantes do grupo.
 
-**● Revisar:** Demonstra as tarefas que foram executadas, mas que devem ser avaliadas e discutidas pela equipe para determinar sua atualização.
+● Revisar: Demonstra as tarefas que foram executadas, mas que devem ser avaliadas e discutidas pela equipe para determinar sua atualização.
 
-**● Feito:** Esta coluna representa as tarefas que já foram executadas, avaliadas e dadas como feitas.
+● Feito: Esta coluna representa as tarefas que já foram executadas, avaliadas e dadas como feitas.
 
 **● Etapa 1**
 
@@ -100,19 +100,76 @@ Público alvo | Juvenil
 |ferramentas| |
 
 
-**Execução:** Foram criadas as Issues e o Project adicionando suas tarefas a serem executas, fazendo também as divisões de papeis do projeto escolhendo a função de cada integrante do grupo (product owner, scrum master, equipe de desenvolvimento e equipe de design), designando quais ferramentas serão utilizadas ao decorrer do projeto para sua execução.
+**Execução:**
+● Foram criadas as Issues e o Project adicionando suas tarefas a serem executas;
+
+● Foram feitas as divisões de papeis do projeto escolhendo a função de cada integrante do grupo (product owner, scrum master, equipe de desenvolvimento e equipe de design);
+
+● A criação do Fluxo de Usuários e WireFrames foram feitas com a colaboração dos integrantes do grupo em uma reunião utilizando a plataforma FIGMA.
+
+● Designamos quais ferramentas serão utilizadas ao decorrer do projeto para sua execução com a possibilidade de adiconar mais ferramentas ou atualizá-las.
 
 **Evidências:** Foram feitos os documentos: Metodologia ( Relação de ambientes de trabalho, Gerenciamento de projeto, Processo ), Projeto de Interface ( Fluxo de usuário, Estrutura de arame), criando também o Project e as Issues no Kanban.  
 
+● Kanban:
+
 ![Kanban](img/Kanban1.png)
+
+● Gerenciamento do Projeto:
+
+![Gerenciamento do Projeto](img/gerenciamento-do-projeto.png)
+
+● Fluxo de Usuário:
+
+![Fluxo de Usuários](img/fluxo-de-usuario.png)
+
+● WireFrames:
+
+![WireFrames](img/wireframe.png)
+
+● Ferramentas:
+
+![Ferramentas](img/relacao-de-ambiente-de-trabalho.png)
+
 
 **● Etapa 3**
 
-**Planejamento:**
+**Planejamento:**Foram planejados dois documentos:
 
-**Execução:**
+|Modelo padrão do Site:| Programação de Funcionalidades:| Metodologia |
+|-----------|---------------------|------------|
+
+**Execução:** 
+
+● Foram adicionadas novas Issues ao projeto para essa terceira etapa.
+
+● Realizamos algumas reuniões entre os integrantes do grupo no Teams e entre conversas diárias pelo WhatsApp decidindo como seria o modelo padrão de nosso site, o ícone que iriamos utilizar e a logo de nossas páginas.
+
+● Resolvemos entre os integrantes do grupo em dividir as páginas do site entre os membros e com essa divisão cada membro seria responsável por uma página. Sendo elas: (Login, Cadastro, Cadastro de Gastos, Gastos e Relatório de Gastos).
+
 
 **Evidências:**
+
+Criação de novas Issues:
+
+
+![Kanban etapa 3](img/Kanban-Etapa-3.png)
+
+
+Modelo padrão do site com ícone e logo:
+
+
+![Login](img/login1.png)
+
+
+Algumas páginas de nosso projeto que já estão sendo feitas:
+
+
+![Página de Login e códigos utilizados](img/login-site.png)
+
+
+
+![Página de cadastro e códigos utilizados](img/cadastro.png)
 
 **●Etapa 4**
 
