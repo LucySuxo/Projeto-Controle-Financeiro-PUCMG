@@ -71,8 +71,8 @@ function cadastrar() {
   }
 
   // Verifica se o campo de celular contém apenas números
-  if (!/^\d{8}$/.test(celular)) {
-    alert("O campo de celular deve conter de 8 a 9 digitos.");
+  if (!/^\d{8,11}$/.test(celular)) {
+    alert("O campo de celular deve conter de 8 a 11 digitos.");
   return;
 
   }
@@ -97,7 +97,7 @@ function cadastrar() {
   var dadosString = JSON.stringify(dados);
 
   // Armazena os dados no LocalStorage
-  localStorage.setItem(email, dadosString);
+  localStorage.setItem('usuario', dadosString);
 
   alert("Dados salvos com sucesso!");
 
@@ -109,4 +109,13 @@ function voltar(){
 
   window.location.href = "login.html"
 
+}
+
+function limparPlaceholder(element) {
+  element.setAttribute('data-placeholder', element.placeholder);
+  element.placeholder = '';
+}
+
+function restaurarPlaceholder(element) {
+  element.placeholder = element.getAttribute('data-placeholder');
 }
